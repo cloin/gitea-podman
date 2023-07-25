@@ -7,7 +7,7 @@ services:
     ports:
       - 3000:3000
     volumes:
-      - ./app.ini:/data/gitea/conf/app.ini:Z
+      - ./app.ini:/data/gitea/conf/app.ini
     environment:
       - USER_UID=1000
       - USER_GID=1000
